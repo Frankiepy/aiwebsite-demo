@@ -1,0 +1,11 @@
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Submit</button>
+</form>
+
+<div class="split left">
+    <div class="centered">
+        {{ html_content|safe }}
+    </div>
+</div>
