@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 #openai.organization = "org-TE9SDFD62sNgNGrLZ8S0ESaZ"
 
 def create_static_site(user_input):
-    openai.api_key = "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"
+    openai.api_key = "API KEY"
     openai.Model.list()
 
     completion = openai.ChatCompletion.create(
